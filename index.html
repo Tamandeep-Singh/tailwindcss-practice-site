@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="md:text-sm lg:text-base" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Providing Web Services and Development for small businesses. Demo Practice website.">
+    <meta name="keywords" content="Web Design, Web Development, Backend Services, Web Services, Demo">
+    <meta name="author" content="Atomic Aspire">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Aspire | Website Design and Services</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/public/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/public/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/public/css/style.min.css">
+    <script defer src="/public/scripts/app.js"></script>
+</head>
+<body class="font-poppins font-thin">
+    <!--Navbar-->
+    <header class="bg-neutral-100 h-16">
+        <nav class="relative flex justify-between items-center h-full pr-3 lg:pr-14 2xl:pr-20">
+            <img class="w-44 lg:w-52 2xl:w-64" src="./public/icons/logo.svg" alt="atomic aspire logo">
+            <img id="hamburger-menu" class="w-8 md:hidden" src="./public/icons/menu.svg" alt="hamburger-menu-icon"/>
+            <ul id="navbar-links" class="hidden text-sky-900 justify-between items-center grow max-w-md md:flex md:text-lg lg:max-w-xl lg:text-xl" >
+                <img id="close-btn" class="hidden absolute right-2 top-2" src="./public/icons/close.svg" alt="close-navbar-icon"/>
+                <li class="navbar-link hover:text-sky-300"><a href="index.html">Home</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="/index.html#about-section">About</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="/index.html#services-section">Services</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="pricing.html">Pricing</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Landing Page-->
+    <main>
+        <!--Hero Section-->
+        <section id="hero-section">
+            <div class="container mx-auto px-4 pb-6 sm:w-[500px] md:w-[700px] lg:w-[900px]">
+                <h1 class="pt-8 text-3xl">Website Design & Services</h1>
+                <h2 class="subtitle pt-4 text-base">It's time to make your website <span style="--i:1" class="anim-span">p</span><span style="--i:2; padding: 0 4px;" class="anim-span">o</span><span style="--i:3" class="anim-span">p</span></h2>
+                <p class="pt-6 pb-8 text-base">Providing small businesses with a reliable and modern website to make you <span class="text-primary-steel">stand out</span> from the crowd.</p>
+                <a class="mb-20 cta-btn text-base p-2 hover:p-3" role=button href="/contact.html">Contact</a>
+            </div>
+        </section>
+        <!--About Section-->
+        <section id="about-section">
+            <div class="container mx-auto px-4 pt-3 pb-2 md:pt-6 md:flex md:justify-between md:items-center lg:justify-evenly">
+                <div class="mb-2">
+                    <h1 class="pt-8 pb-4 text-xl md:pt-0"><span class="text-primary-steel">Who</span> am I?</h1>
+                    <p class="text-base pb-4 sm:text-sm md:max-w-[300px] lg:max-w-[400px]">I am a sole trader based in the UK looking to specialise in website development and services. My goal is to create a website for YOU that is responsive, performant and gorgeous in design so that you can elevate your brand to the next level. No wordpress or webflow - hand crafted websites so that your websites are lightning fast.</p>
+                </div>
+               <div>
+                    <h1 class="text-xl pb-4 "><span class="text-primary-steel">Service</span> that matters</h1>
+                    <p class="text-base pb-4 sm:text-sm md:max-w-[300px] lg:max-w-[400px]">I cater to small and upcoming businesses who wish to redevelop their website or create one to engage with their customers. Using modern design and best practices, I aim to create the best website for your consumers. With SEO optimisation, Google Analytics and responsiveness you can ensure that your brand is powerful.
+                </p>
+               </div>
+            </div>
+        </section>
+        <!--Services-->
+        <section id="services-section">
+           <div class="container mx-auto px-4 ">
+               <h1 class="pt-8 pb-8 text-2xl md:text-center lg:pb-10"><span class="text-primary-steel">My</span> Services</h1>
+               <ul class="md:grid md:grid-cols-2 md:gap-y-6 md:gap-x-16 lg:gap-y-2 lg:gap-x-10 lg:px-4">
+                  <li class="pb-8">
+                    <img class="w-5 inline-block" src="./public/icons/checkmark.svg" alt="checkmark"/>
+                    <h1 class="inline-block text-lg pb-2 pl-2 font-semibold lg:text-base">Mobile First Design</h1>
+                    <p class=" text-primary-thin text-base lg:text-sm">I use a mobile first approach to build your site from the ground up.</p>
+                  </li>
+                  <li class="pb-8">
+                    <img class="w-5 inline-block" src="./public/icons/checkmark.svg" alt="checkmark"/>
+                    <h1 class="inline-block text-lg pb-2 pl-2 font-semibold lg:text-base">Fully Responsive</h1>
+                    <p class="text-primary-thin text-base lg:text-sm">Your website will scale across large phones, tablets and laptops so users will never miss out.</p>
+                  </li>
+                  <li class="pb-8">
+                    <img class="w-5 inline-block" src="./public/icons/checkmark.svg" alt="checkmark"/>
+                    <h1 class="inline-block text-lg pb-2 pl-2 font-semibold lg:text-base">Lightning Fast</h1>
+                    <p class="text-primary-thin text-base lg:text-sm">No wordpress, no wix, no webflow - just created from scratch. Result? Super fast loading times.</p>
+                  </li>
+                  <li class="pb-8">
+                    <img class="w-5 inline-block" src="./public/icons/checkmark.svg" alt="checkmark"/>
+                    <h1 class="inline-block text-lg pb-2 pl-2 font-semibold lg:text-base">Free Google Analytics</h1>
+                    <p class=" text-primary-thin text-base lg:text-sm">Curious about your website's traffic? I got you covered. Your website will have Analytics setup from launch.</p>
+                  </li>
+                  <li class="pb-8">
+                    <img class="w-5 inline-block" src="./public/icons/checkmark.svg" alt="checkmark"/>
+                    <h1 class="inline-block text-lg pb-2 pl-2 font-semibold lg:text-base">Hosting & Domain Included</h1>
+                    <p class=" text-primary-thin text-base lg:text-sm">I can setup and routinely monitor your site to ensure your users get the best experience.</p>
+                  </li>
+                  <li class="pb-8">
+                    <img class="w-5 inline-block" src="./public/icons/checkmark.svg" alt="checkmark"/>
+                    <h1 class="inline-block text-lg pb-2 pl-2 font-semibold lg:text-base">Accessible to all</h1>
+                    <p class=" text-primary-thin text-base lg:text-sm">Your site will comply with recent standards for web accessibility.</p>
+                  </li>
+               </ul>
+               <div class="pt-4 pb-12 md:text-center md:pt-6">
+                <h1 class="text-2xl mb-8"><span class="text-primary-steel">Check</span> my Pricing</h1>
+                <a class="cta-btn text-base py-2 px-6 hover:px-8 hover:py-3" role=button href="/pricing.html">Pricing</a>
+            </div>
+           </div>
+        </section>
+    </main>
+    <!--footer-->
+    <footer class="px-4 text-center py-8 bg-slate-200">
+        <p class="text-xs mb-4">Copyright &copy; 2022 | Atomic Aspire | All Rights Reserved</p>
+        <p class="text-xs">Demo website. Insert any footer text here.</p>
+    </footer>
+</body>
+</html>

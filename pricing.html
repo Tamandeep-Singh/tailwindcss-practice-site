@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="md:text-sm lg:text-base" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Providing Web Services and Development for small businesses. Demo Practice website.">
+    <meta name="keywords" content="Web Design, Web Development, Backend Services, Web Services, Demo">
+    <meta name="author" content="Atomic Aspire">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Aspire | Website Design and Services</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/public/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/public/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/public/css/style.min.css">
+    <script defer src="/public/scripts/app.js"></script>
+</head>
+<body class="font-poppins font-thin">
+    <!--Navbar-->
+    <header class="bg-neutral-100 h-16">
+        <nav class="relative flex justify-between items-center h-full pr-3 lg:pr-14 2xl:pr-20">
+            <img class="w-44 lg:w-52 2xl:w-64" src="./public/icons/logo.svg" alt="atomic aspire logo">
+            <img id="hamburger-menu" class="w-8 md:hidden" src="./public/icons/menu.svg" alt="hamburger-menu-icon"/>
+            <ul id="navbar-links" class="hidden text-sky-900 justify-between items-center grow max-w-md md:flex md:text-lg lg:max-w-xl lg:text-xl" >
+                <img id="close-btn" class="hidden absolute right-2 top-2" src="./public/icons/close.svg" alt="close-navbar-icon"/>
+                <li class="navbar-link hover:text-sky-300"><a href="index.html">Home</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="/index.html#about-section">About</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="/index.html#services-section">Services</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="pricing.html">Pricing</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <!--Pricing-->
+        <section id="pricing-section">
+               <div class="container mx-auto px-4 md:px-12">
+                   <h1 class="text-2xl text-center text-primary-steel pt-4 pb-3 sm:text-3xl sm:pb-4 md:pb-6">Pricing</h1>
+                   <p class="text-sm pb-4 text-primary-thin md:text-base">*The pricing listed below is for different options, ranging from standard static sites to dynamic. Each website contracted will be at a custom price per project requirements. The below pricing should be used as a general idea for the cost of a website.</p>
+                   <p class="text-sm pb-4 text-primary-thin md:text-base">*Domain Name subject to availability.</p>
+                   <p class="text-sm pb-4 text-primary-thin md:text-base">*Domain will be registered via GoDaddy with domain name selected and paid for by client.</p>
+                   <p class="text-sm pb-4 text-primary-thin md:text-base">*Website Redesign will be set at a custom price. Contact for a quote.</p>
+                   <h1 class="pb-6 text-lg sm:text-center sm:text-[1.4rem] sm:pt-6 ">Get a quote <span class="text-primary-steel">NOW</span></h1>
+                   <!--Pricing Options Container-->
+                   <div class="flex flex-col items-center pb-4 lg:flex-row lg:justify-between">
+                      <!--Pricing Standard-->
+                      <div class="rounded-md bg-slate-50 w-72 flex flex-col items-center pb-6 mb-4 sm:w-96 md:w-[26rem] md:mb-8 lg:w-[18rem] xl:w-[22rem]">
+                          <h1 class="text-2xl bg-border-light w-full text-center pt-4 pb-3">Standard</h1>
+                          <h2 class="text-primary-thin text-xl pb-3 pt-4">General Price</h2>
+                          <h3 class="text-2xl pb-3 text-primary-steel">£150 upfront</h3>
+                          <h3 class="text-xl text-primary-steel">£30/MO</h3>
+                          <ul class="pt-6 pb-6 grid grid-cols-1 gap-y-3">
+                            <li>
+                                <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                                <p class="inline-block text-primary-thin pl-2">Hosting & Domain</p>
+                            </li>
+                            <li>
+                                <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                                <p class="inline-block text-primary-thin pl-2">Static Site</p>
+                            </li>
+                            <li>
+                                <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                                <p class="inline-block text-primary-thin pl-2">Email Setup</p>
+                            </li>
+                            <li>
+                                <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                                <p class="inline-block text-primary-thin pl-2">SEO + Responsive</p>
+                            </li>
+                            <li>
+                                <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                                <p class="inline-block text-primary-thin pl-2">10GB Storage</p>
+                            </li>
+                            <li>
+                                <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                                <p class="inline-block text-primary-thin pl-2">HTTPS Included</p>
+                            </li>
+                          </ul>
+                          <a class="cta-btn text-base p-2 hover:p-3" role=button href="/contact.html">Contact</a>
+                      </div>
+                    <!--Pricing Standard + Blogging-->
+                      <div class="rounded-md bg-slate-50 w-72 flex flex-col items-center pb-6 mb-4 sm:w-96 md:w-[26rem] md:mb-8 lg:w-[18rem] xl:w-[22rem]">
+                        <h1 class="text-2xl bg-border-light w-full text-center pt-4 pb-3">Standard & Blogging</h1>
+                        <h2 class="text-primary-thin text-xl pb-3 pt-4">General Price</h2>
+                        <h3 class="text-2xl pb-3 text-primary-steel">£175 upfront</h3>
+                        <h3 class="text-xl text-primary-steel">£35/MO</h3>
+                        <ul class="pt-6 pb-6 grid grid-cols-1 gap-y-3">
+                          <li>
+                              <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                              <p class="inline-block text-primary-thin pl-2">Hosting & Domain</p>
+                          </li>
+                          <li>
+                              <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                              <p class="inline-block text-primary-thin pl-2">Blog Posts</p>
+                          </li>
+                          <li>
+                              <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                              <p class="inline-block text-primary-thin pl-2">Email Setup</p>
+                          </li>
+                          <li>
+                              <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                              <p class="inline-block text-primary-thin pl-2">SEO + Responsive</p>
+                          </li>
+                          <li>
+                            <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                            <p class="inline-block text-primary-thin pl-2">Unlimited Storage</p>
+                          </li>
+                          <li>
+                            <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                            <p class="inline-block text-primary-thin pl-2">HTTPS Included</p>
+                        </li>
+                        </ul>
+                        <a class="cta-btn text-base p-2 hover:p-3 " role=button href="/contact.html">Contact</a>
+                    </div>
+                    <!--Pricing Custom-->
+                    <div class="rounded-md bg-slate-50 w-64 flex flex-col items-center pb-6 mb-4 sm:w-96 md:w-[26rem] md:mb-8 lg:w-[18rem] xl:w-[22rem]">
+                        <h1 class="text-2xl bg-border-light w-full text-center pt-4 pb-3">Custom</h1>
+                        <h2 class="text-primary-thin text-xl pb-3 pt-4">General Price</h2>
+                        <h3 class="text-2xl pb-3 text-primary-steel">£200 upfront</h3>
+                        <h3 class="text-xl text-primary-steel">£40/MO</h3>
+                        <ul class="pt-6 pb-6 grid grid-cols-1 gap-y-3">
+                          <li>
+                              <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                              <p class="inline-block text-primary-thin pl-2">Hosting & Domain</p>
+                          </li>
+                          <li>
+                              <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                              <p class="inline-block text-primary-thin pl-2">Blog Posts</p>
+                          </li>
+                          <li>
+                              <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                              <p class="inline-block text-primary-thin pl-2">Email Setup</p>
+                          </li>
+                          <li>
+                              <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                              <p class="inline-block text-primary-thin pl-2">SEO + Responsive</p>
+                          </li>
+                          <li>
+                            <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                            <p class="inline-block text-primary-thin pl-2">HTTPS + Unlimited Storage</p>
+                          </li>
+                          <li>
+                            <img class="w-5 inline-block" src="./public/icons/checkmark-blue.svg" alt="checkmark"/>
+                            <p class="inline-block text-primary-thin pl-2">Custom Design</p>
+                        </li>
+                        </ul>
+                        <a class="cta-btn text-base p-2 hover:p-3" role=button href="/contact.html">Contact</a>
+                    </div>
+                   </div>
+               </div>
+        </section>
+    </main>
+    <!--footer-->
+    <footer class="px-4 text-center py-8 bg-slate-200">
+        <p class="text-xs mb-4">Copyright &copy; 2022 | Atomic Aspire | All Rights Reserved</p>
+        <p class="text-xs">Demo website. Insert any footer text here.</p>
+    </footer>
+</body>
+</html>

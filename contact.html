@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="md:text-sm lg:text-base" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Providing Web Services and Development for small businesses. Demo Practice website.">
+    <meta name="keywords" content="Web Design, Web Development, Backend Services, Web Services, Demo">
+    <meta name="author" content="Atomic Aspire">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Aspire | Website Design and Services</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/public/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/public/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/public/css/style.min.css">
+    <script defer src="/public/scripts/app.js"></script>
+</head>
+<body class="font-poppins font-thin">
+    <!--Navbar-->
+    <header class="bg-neutral-100 h-16">
+        <nav class="relative flex justify-between items-center h-full pr-3 lg:pr-14 2xl:pr-20">
+            <img class="w-44 lg:w-52 2xl:w-64" src="./public/icons/logo.svg" alt="atomic aspire logo">
+            <img id="hamburger-menu" class="w-8 md:hidden" src="./public/icons/menu.svg" alt="hamburger-menu-icon"/>
+            <ul id="navbar-links" class="hidden text-sky-900 justify-between items-center grow max-w-md md:flex md:text-lg lg:max-w-xl lg:text-xl" >
+                <img id="close-btn" class="hidden absolute right-2 top-2" src="./public/icons/close.svg" alt="close-navbar-icon"/>
+                <li class="navbar-link hover:text-sky-300"><a href="index.html">Home</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="/index.html#about-section">About</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="/index.html#services-section">Services</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="pricing.html">Pricing</a></li>
+                <li class="navbar-link hover:text-sky-300"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <!--Contact-->
+        <section id="contact-section">
+            <div class="h-[80vh] container mx-auto flex items-center justify-center">
+                <form class="block sm:w-[60%] md:w-[70%]">
+                    <div class="my-10 md:my-12">
+                      <label class="text-slate-800 text-base block pb-2 sm:text-lg" for="name">Name</label>
+                      <input class="block bg-zinc-300 text-slate-800 border-gray-200 rounded-sm px-3 py-2 focus:outline-none focus:bg-white focus:border-gray-500 w-full sm:py-4" id="name" type="text" name="name" required>
+                    </div>
+                    <div class="my-10 md:my-12">
+                      <label class="text-slate-800 text-base block pb-2 sm:text-lg" for="email">E-mail</label>
+                      <input class="block bg-zinc-300 text-slate-800 border-gray-200 rounded-sm px-3 py-2 focus:outline-none focus:bg-white focus:border-gray-500 w-full sm:py-4" id="email" type="email" name="email" required>
+                    </div>
+                    <div class="my-10 md:my-12">
+                       <label class="text-slate-800 text-base block pb-2 sm:text-lg" for="message">Message (Project Requirements)</label>
+                       <textarea class="block bg-zinc-300 text-slate-800 border-gray-200 rounded-sm px-3 py-2 focus:outline-none focus:bg-white focus:border-gray-500 resize-none w-full sm:py-4" id="message" name="message" required></textarea>
+                    </div>
+                    <button class="bg-primary-steel py-2 px-4 mb-6 text-base sm:text-lg  text-white rounded" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--footer-->
+    <footer class="px-4 text-center py-8 bg-slate-200">
+        <p class="text-xs mb-4">Copyright &copy; 2022 | Atomic Aspire | All Rights Reserved</p>
+        <p class="text-xs">Demo website. Insert any footer text here.</p>
+    </footer>
+</body>
+</html>
