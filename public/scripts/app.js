@@ -3,7 +3,7 @@ const navbarLinks = document.querySelector("#navbar-links");
 const closeBtn = document.querySelector("#close-btn");
 const heroSection = document.querySelector("#hero-section");
 const animSpans = document.querySelectorAll(".anim-span");
-console.log(animSpans)
+
 
 const removeAnimSpan = () => {
     animSpans.forEach(animSpan => {
